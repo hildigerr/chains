@@ -12,6 +12,7 @@ minetest.register_node("chains:chain", {
     groups = {cracky=3},
     sounds =  default.node_sound_stone_defaults(),
     })
+
 minetest.register_node("chains:chain_top", {
     description = "Chain Top",
     walkable = false,
@@ -24,6 +25,7 @@ minetest.register_node("chains:chain_top", {
     groups = {cracky=3},
     sounds =  default.node_sound_stone_defaults(),
     })
+
 minetest.register_node("chains:chandelier", {
     description = "Chandelier",
     paramtype = "light",
@@ -38,6 +40,7 @@ minetest.register_node("chains:chandelier", {
     groups = {cracky=3},
     sounds =  default.node_sound_stone_defaults(),
     })
+
 minetest.register_craft({
 	output = 'chains:chain',
 	recipe = {
@@ -46,13 +49,15 @@ minetest.register_craft({
 		{'default:steel_ingot'},
 	}
 })
+
 minetest.register_craft({
 	output = 'chains:chain_top',
 	recipe = {
 		{'default:steel_ingot'},
-		{'chains:chain'},	
+		{'chains:chain'},
 	},
 })
+
 minetest.register_craft({
 	output = 'chains:chandelier',
 	recipe = {
