@@ -42,7 +42,7 @@ minetest.register_node("chains:chandelier", {
     })
 
 minetest.register_craft({
-	output = 'chains:chain',
+	output = "chains:chain 2",
 	recipe = {
 		{'default:steel_ingot'},
 		{'default:steel_ingot'},
@@ -61,8 +61,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'chains:chandelier',
 	recipe = {
-		{'', 'chains:chain', ''},
-		{'default:torch', 'default:steel_ingot', 'default:torch'},
+		{'default:torch', 'chains:chain', 'default:torch'},
+		{'default:torch', 'chains:chain', 'default:torch'},
 		{'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
 	}
 })
