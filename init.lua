@@ -7,6 +7,7 @@ minetest.register_node("chains:chain", {
     sunlight_propagates = true,
     paramtype = "light",
     drops = "",
+    inventory_image = "Chain_inv.png",
     tile_images = { "Chain.png" },
     drawtype = "plantlike",
     groups = {cracky=3},
