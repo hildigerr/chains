@@ -49,7 +49,7 @@ minetest.register_node("chains:chandelier", {
     sunlight_propagates = true,
     paramtype = "light",
     drops = "",
-    tile_images = { {name="Chandelier.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=3.0}}},
+    tile_images = { {name="Chandelier.png", animation={type="vertical_frames", aspect_w=96, aspect_h=64, length=16.0}}},
     inventory_image = "Chandelier_inv.png",
     wield_image = "Chandelier_inv.png",
     drawtype = "plantlike",
